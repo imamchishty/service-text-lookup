@@ -15,6 +15,10 @@ public class ApiConstants {
 
     public static final String API_DOCS_ROOT = "/docs";
 
+    public static final String API_TEXT_ROOT = "/api/lookup";
+
+    public static final String API_TEXT_LOOKUP = API_TEXT_ROOT + "/{key}";
+
     // Management root URI
     public static final String API_MAN_ROOT ="/admin";
 

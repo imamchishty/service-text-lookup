@@ -43,8 +43,8 @@ import java.util.Arrays;
 @PropertySources(value = {
         @PropertySource(value = "classpath:/git-build.properties")
 })
-@EnableDiscoveryClient
-@EnableFeignClients
+//@EnableDiscoveryClient
+//@EnableFeignClients
 @EnableHystrix
 @EnableHystrixDashboard
 public class Application extends WebMvcConfigurerAdapter {

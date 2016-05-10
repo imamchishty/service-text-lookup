@@ -9,8 +9,9 @@ import com.shedhack.exception.core.BusinessCode;
  */
 public enum GlobalBusinessCodes implements BusinessCode {
 
-    C001("something"),
-    C002("something+1");
+    TLS001("Key provided is not valid."),
+    TLS002("Unable to persist record, key already exists."),
+    TLS003("Unable to update the record.");
 
     private final String description;
 

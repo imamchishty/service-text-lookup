@@ -8,13 +8,13 @@ server:
   port: 8080
 
 # When Eureka is available set accordingly
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8071/eureka/
-  instance:
-    status-page-url: ${management.contextPath}/info
-    health-check-url-path: ${management.contextPath}/health
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8071/eureka/
+#  instance:
+#    status-page-url: ${management.contextPath}/info
+#    health-check-url-path: ${management.contextPath}/health
 
 management.contextPath: /admin
 #management.port: 8081
